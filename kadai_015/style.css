@@ -1,0 +1,52 @@
+/* dody font・center */
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+
+/* font size */
+html {
+    font-size: 20px;
+}
+
+
+/* font color */
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+.blue {
+    color: skyblue;
+}
+
+
+/* h1 */
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-shadow: 0 0 8px rgba(128, 128, 128, 0.6);
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-bottom: 3px solid rgb(115, 115, 114);
+  }
+
+
+/* 太字 */
+#basic p {
+    font-weight: bold;
+  }
+  
