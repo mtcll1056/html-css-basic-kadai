@@ -2,18 +2,18 @@
 #top {
     width: 800px;
     background-color: #dcc9f4;
-    margin: 20px auto; 
-    text-align: center; 
-    padding: 10px 0; 
-  }
-  
-  /* .top-childに対する装飾 */
-  .top-child {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* .top-childに対する装飾 */
+.top-child {
     width: 20%;
     background-color: #ffd9df;
-    display: inline-block; 
-    margin: 0 5px; 
-  }
+    display: inline-block;
+    margin: 0 5px;
+}
 
 /* #middle に対する装飾 */
 #middle {
@@ -21,43 +21,43 @@
     height: 800px;
     background-color: #ffd9df;
     margin: 20px auto;
-    position: relative; 
-  }
-  
-  /* 共通の子要素の装飾 */
-  #middle-child01,
-  #middle-child02,
-  #middle-child03 {
+    position: relative;
+}
+
+/* 共通の子要素の装飾 */
+#middle-child01,
+#middle-child02,
+#middle-child03 {
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
     position: absolute;
-  }
-  
-  /* 個別の位置指定 */
-  #middle-child01 {
+}
+
+/* 個別の位置指定 */
+#middle-child01 {
     top: 100px;
     left: 100px;
-  }
-  
-  #middle-child02 {
+}
+
+#middle-child02 {
     top: 300px;
     left: 300px;
-  }
-  
-  #middle-child03 {
+}
+
+#middle-child03 {
     top: 500px;
     left: 500px;
-  }
-  
+}
+
 /* #bottom に対する装飾 */
 #bottom {
-  width: 800px;
-  height: 300px;
-  background-color: #87ceeb;
-  margin: 0 auto;
-  position: relative;
+    width: 800px;
+    height: 300px;
+    background-color: #87ceeb;
+    margin: 0 auto;
 }
+
 
 /* 共通スタイル */
 #bottom-child01,
@@ -66,21 +66,21 @@
   width: 400px;
   height: 100px;
   background-color: #e5dcf0;
-  position: absolute;
+  position: relative; 
 }
 
-/* 各ボックスの配置 */
+/* 各ボックスの左右配置 */
 #bottom-child01 {
-  top: 0;
   left: 0;
+  text-align: left;
 }
 
 #bottom-child02 {
-  top: 100px;
   left: 200px;
+  text-align: center;
 }
 
 #bottom-child03 {
-  top: 200px;
   left: 400px;
+  text-align: right;
 }
